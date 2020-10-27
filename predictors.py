@@ -6,7 +6,7 @@ from allennlp.common.util import JsonDict
 from allennlp.data import Instance
 from allennlp.predictors import Predictor
 
-@Predictor.register("slot_filling_predictor")
+@Predictor.register("bert_st")
 class SlotFillingPredictor(Predictor):
 
     def predict(self, inputs: JsonDict) -> JsonDict:
